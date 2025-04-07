@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-windows;net48</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<RootNamespace>axp.Core</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup>
+		<AssemblyTitle>Thư viện đọc axp</AssemblyTitle>
+		<Company>Truyền phát</Company>
+		<Copyright>MIT License</Copyright>
+		<AssemblyVersion>1.0.3.0</AssemblyVersion>
+		<FileVersion>1.0.3.0</FileVersion>
+		<RepositoryUrl>https://gitlab.com/namngoc1994/tlbbgmtool</RepositoryUrl>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)'=='Release'">
+		<DebugType>none</DebugType>
+	</PropertyGroup>
+
+</Project>
